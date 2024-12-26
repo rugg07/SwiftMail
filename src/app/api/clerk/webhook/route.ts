@@ -12,6 +12,7 @@ export const POST = async (req: Request) => {
   const imageURL = data.image_url
   const id = data.id
 
+  //send information recieved from Clerk DB to our DB
   await db.user.create({
     data: {
         id: id,

@@ -1,0 +1,2 @@
+# SwiftMail
+AI Email Saas
